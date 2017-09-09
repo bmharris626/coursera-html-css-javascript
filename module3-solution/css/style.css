@@ -1,0 +1,72 @@
+body {
+  font-size: 16px;
+  background-color: #0099FF;
+}
+
+#header-nav {
+  border-radius: 0;
+  border: 0;
+  background-color: #009933;
+  color: #FFFFFF;
+  box-shadow: 3px 3px 5px #000000;
+}
+
+.navbar-brand h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  font-size: 1.8em;
+  color: #FFFFFF;
+  text-shadow: 3px 3px 5px #000000;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#collapsable-nav a {
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#collapsable-nav li:hover {
+  background-color: #663300;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  text-align: center;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #FFFFFF;
+}
+
+.tab {
+  padding-right: 2em;
+}
+
+#main-content {
+  margin-bottom: 15px;
+}
+#main-content h2 {
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 3px 3px 5px #000000;
+}
+#main-content article {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  border-right: 3px outset #999999;
+  border-bottom: 3px outset #999999;
+}
+#main-content h3 {
+  text-align: center;
+  text-shadow: 1px 1px 3px #000000;
+}
+#main-content a {
+  font-weight: bold;
+  color: black;
+}
